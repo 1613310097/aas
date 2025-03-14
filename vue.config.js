@@ -14,6 +14,7 @@ function publicPath(){
 // vue.config.js
 module.exports = {
     // publicPath:"././",
+	// 9843
     publicPath: publicPath(),
     // 国际化配置 使用其它语言，默认情况下中文语言包依旧是被引入的
     configureWebpack: {
@@ -29,7 +30,7 @@ module.exports = {
 lintOnSave: false,
     devServer: {
         host: "0.0.0.0", //指定使用一个 host。默认是 localhost，这里默认值即可
-        port: 8081, //指定端口
+        port: 8082, //指定端口
         hot: true, // 开启热更新
         https: false, // 是否开启https模式
         proxy: { // 请求代理服务器
